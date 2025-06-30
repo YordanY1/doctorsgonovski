@@ -5,7 +5,7 @@
                 class="bg-white shadow-lg rounded-xl p-6 max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-4 border border-orange-200">
                 <p class="text-gray-700 text-sm md:text-base flex-1">
                     Използваме бисквитки, за да подобрим вашето потребителско изживяване.
-                    С използването на сайта, Вие се съгласявате с нашата <a wire:navigate href="/terms"
+                    С използването на сайта, Вие се съгласявате с нашата <a wire:navigate href="/terms-of-use"
                         class="text-orange-500 underline">Политика за бисквитки</a>.
                 </p>
                 <div class="flex gap-2">
