@@ -20,8 +20,11 @@
             <div class="swiper-wrapper">
                 @foreach (['24.jpg', '10.jpg', '26.jpg', '21.jpg', '14.jpg', '17.jpg', '22.jpg', '25.jpg', '4.jpg', 'about_4.jpg', 'about_5.jpg', 'about_6.jpg', 'about_7.jpg'] as $img)
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/about/' . $img) }}"
-                            class="object-cover w-full h-[600px] sm:h-[350px] md:h-[400px] lg:h-[900px] transition duration-300 ease-in-out" />
+                        <div class="w-full h-[350px] sm:h-[700px] md:h-[500px] lg:h-[900px] bg-center bg-cover bg-no-repeat rounded-md shadow"
+                            style="background-image: url('{{ asset('images/about/' . $img) }}');">
+                        </div>
+
+
                     </div>
                 @endforeach
             </div>
